@@ -73,3 +73,7 @@ L-Larry_Lau@163.com#40775-3wle0g1uin5c1#0674
 
 ![](/assets/配置端口.png)
 
+5.Next，生成了服务器上的配置信息，按照下面的提示是需要将“-agentpath:/opt/jprofiler9/bin/linux-x64/libjprofilerti.so=port=8849 ”加入到要监控的服务的启动参数的
+
+![](/assets/配置信息.png)
+
