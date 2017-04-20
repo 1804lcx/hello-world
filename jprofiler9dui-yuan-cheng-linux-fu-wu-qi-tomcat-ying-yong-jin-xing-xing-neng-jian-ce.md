@@ -6,3 +6,13 @@
 
 
 
+客户端安装（window）
+
+1、先去官网下载windows版安装文件
+
+[http://www.ej-technologies.com/download/jprofiler/files](http://www.ej-technologies.com/download/jprofiler/files)
+
+
+
+
+
