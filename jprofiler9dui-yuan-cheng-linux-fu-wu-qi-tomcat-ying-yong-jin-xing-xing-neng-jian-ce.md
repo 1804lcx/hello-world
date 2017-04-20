@@ -1,4 +1,8 @@
-##                                  [JProfiler9安装 监控Tomcat](http://www.cnblogs.com/vickygu2007/p/5082376.html)
+本地客户端：jprofiler\_windows-x64\_9\_2.zip
+
+服务器端：jprofiler\_linux\_9\_2.sh
+
+服务器端系统为：CentOS7  X64
 
 
 
