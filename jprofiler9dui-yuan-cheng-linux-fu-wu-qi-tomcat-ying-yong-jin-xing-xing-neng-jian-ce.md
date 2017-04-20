@@ -77,3 +77,13 @@ L-Larry_Lau@163.com#40775-3wle0g1uin5c1#0674
 
 ![](/assets/配置信息.png)
 
+6.Next，选择第二项，点击finish，完成客户端的配置
+
+![](/assets/完成配置.png)
+
+7.到入服务器的tomcat下修改启动参数
+
+tomcat的启动文件一般是catalina.sh（如果自己定义了别的启动文件则在对应的启动文件中加）
+
+JAVA\_OPTS="$JAVA\_OPTS  -agentpath:/opt/jprofiler9/bin/linux-x64/libjprofilerti.so=port=8849,nowait"
+
