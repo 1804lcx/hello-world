@@ -32,7 +32,7 @@ L-Larry_Lau@163.com#40775-3wle0g1uin5c1#0674
 
 > 如果没有wget命令。可yum安装。直接`yum -y install wget`，如果   实在安装不好，可以直接window下载再传到服务器上去
 
-2.到jprofiler\_linux\_9\_2\_1.sh存放的目录下执行安装。
+2.到jprofiler\_linux\_9\_2\_1.sh存放的目录下执行安装，我的目录是`/opt`。
 
 ```
 [root@localhost opt]# chmod +x jprofiler_linux_9_2_1.sh
@@ -49,5 +49,27 @@ L-Larry_Lau@163.com#40775-3wle0g1uin5c1#0674
 
 （3）客户端和服务器端的版本号要一致，此例中均为9.2。
 
+**监控配置**
 
+在客户端打开jprofiler，在弹出的JProfiler Start Center 框中选择New Remote Integration。
+
+1.服务器选择Linux X86/AMD64
+
+![](/assets/服务器选择.png)
+
+2.Next选择服务端的java虚拟机版本。我的是jdk1.8，所以选择如下，根据实际版本选择
+
+![](/assets/服务端java虚拟机配置.png)
+
+3.Next选择默认，在Next，输入服务器的地址
+
+![](/assets/服务器地址.png)
+
+4.Next，选择服务器上的jprofiler安装后的目录，我的是在/opt安装的，安装后的目录就是/opt/jprofiler9
+
+![](/assets/服务器上软件目录.png)
+
+4.Next,配置服务器上的jprofiler的端口，一般保持默认就可以了
+
+![](/assets/配置端口.png)
 
