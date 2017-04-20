@@ -87,3 +87,5 @@ tomcat的启动文件一般是catalina.sh（如果自己定义了别的启动文
 
 JAVA\_OPTS="$JAVA\_OPTS  -agentpath:/opt/jprofiler9/bin/linux-x64/libjprofilerti.so=port=8849,nowait"  ，我这里多加了nowait表示tomcat启动的时候无需等客户端连接后再启动，如果没有加则tomcat会在执行启动脚本后启动jprofiler后等客户端连接后再继续启动tomcat
 
+8.服务器端tomcat启动后，在客户端的JProfiler Start Center 点击刚才配置的连接即可进入监控界面。具体监控数据自行配置
+
