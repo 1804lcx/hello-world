@@ -83,7 +83,7 @@ L-Larry_Lau@163.com#40775-3wle0g1uin5c1#0674
 
 7.到入服务器的tomcat下修改启动参数
 
-tomcat的启动文件一般是catalina.sh（如果自己定义了别的启动文件则在对应的启动文件中加）
+tomcat的启动文件一般是catalina.sh（如果自己定义了别的启动文件则在对应的启动文件中加），在文件最后加上带jprofiler的启动参数，即上面第5步分生成的那句
 
-JAVA\_OPTS="$JAVA\_OPTS  -agentpath:/opt/jprofiler9/bin/linux-x64/libjprofilerti.so=port=8849,nowait"
+JAVA\_OPTS="$JAVA\_OPTS  -agentpath:/opt/jprofiler9/bin/linux-x64/libjprofilerti.so=port=8849,nowait"  ，我这里多加了nowait表示tomcat启动的时候无需等客户端连接后再启动，如果没有加则tomcat会在执行启动脚本后启动jprofiler后等客户端连接后再继续启动tomcat
 
