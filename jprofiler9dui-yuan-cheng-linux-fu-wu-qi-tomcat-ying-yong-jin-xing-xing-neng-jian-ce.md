@@ -36,10 +36,18 @@ L-Larry_Lau@163.com#40775-3wle0g1uin5c1#0674
 
 ```
 [root@localhost opt]# chmod +x jprofiler_linux_9_2_1.sh
-[root@localhost opt]# ./jprofiler_linux_9_2_1.sh                
+[root@localhost opt]# ./jprofiler_linux_9_2_1.sh
 ```
 
 > 根据提示信息一路回车下去即可
+
+**提示：**
+
+（1）下载的服务器和客户端版本必须符合[操作系统](http://lib.csdn.net/base/operatingsystem)的类型，jprofiler支持操作系统类型为windows、MAC os、linux、Solaris、Aix、FreeBSD、HP-UX；
+
+（2）客户端需要licence，可以通过在[http://www.ej-technologies.com](http://www.ej-technologies.com/)网站上输入用户名和邮箱来获取试用版licence，服务器端不需要licence；
+
+（3）客户端和服务器端的版本号要一致，此例中均为9.2。
 
 
 
