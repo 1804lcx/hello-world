@@ -8,7 +8,7 @@
 
 1.先去官网下载windows版安装文件
 
-http://www.ej-technologies.com/download/jprofiler/version\_92
+[http://www.ej-technologies.com/download/jprofiler/version\_92](http://www.ej-technologies.com/download/jprofiler/version_92)
 
 2.安装，按照提示默认安装即可。这里不赘述。
 
@@ -19,13 +19,27 @@ L-Larry_Lau@163.com#23874-hrwpdp1sh1wrn#0620     {亲测可用}
 L-Larry_Lau@163.com#36573-fdkscp15axjj6#25257 
 L-Larry_Lau@163.com#5481-ucjn4a16rvd98#6038 
 L-Larry_Lau@163.com#99016-hli5ay1ylizjj#27215 
-L-Larry_Lau@163.com#40775-3wle0g1uin5c1#0674 
+L-Larry_Lau@163.com#40775-3wle0g1uin5c1#0674
 ```
 
+**服务端安装（在服务器上执行）**
 
+1.获取官网安装包
 
+```
+[root@localhost opt]# wget http://download-keycdn.ej-technologies.com/jprofiler/jprofiler_linux_9_2_1.sh
+```
 
+> 如果没有wget命令。可yum安装。直接`yum -y install wget`，如果   实在安装不好，可以直接window下载再传到服务器上去
 
-  
+2.到jprofiler\_linux\_9\_2\_1.sh存放的目录下执行安装。
+
+```
+[root@localhost opt]# chmod +x jprofiler_linux_9_2_1.sh
+[root@localhost opt]# ./jprofiler_linux_9_2_1.sh                
+```
+
+> 根据提示信息一路回车下去即可
+
 
 
